@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    
     margin: 0;
     padding: 0;
 }
@@ -15,8 +15,7 @@
     padding: 25px;
 }
 
-.container nav .max-width{
-    /* BT1: xoa phan nav va hoc vien phai debug de trong home ko co mau nhu tren */
+.container  .max-width{
     height: 50px;
 }
 
@@ -32,10 +31,7 @@
 
 .home .max-width {
     height: 325px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* xóa bộ display: flex để kiểm tra khả năng sử dụng của học viên */
+    
 }
 
 .home .max-width .home-left{
@@ -48,12 +44,6 @@
     height: 100%;
     width: 70%;
     background-color: rgb(216, 153, 245);
-    /* display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center; */
-    float: inline-start;
 }
 
 .home-box{
@@ -62,6 +52,6 @@
     background-color: chocolate;
 }
 .home .home-right .home-box{
-   margin: 42px auto ;
-   /* yêu cầu học viên làm cho box vào giữa khung hình bằng cách căn margin px */
+
+
 }
